@@ -11,7 +11,7 @@
     spam filtering
 
 ## THE STEPS
-  - [x] Register or make Account in[Netlify](https://app.netlify.com/)
+  - [x] Register or make Account in [Netlify](https://app.netlify.com/)
   - [x] Find & download any contact-form html on internet
   - [x] modify it like this :
   
@@ -21,7 +21,8 @@
 		<input type="text" name="name" id="name" placeholder="Input Your Name" /></div>
 		<div class="col-6 col-12-xsmall">
 		<input type="email" name="email" id="email" placeholder="Input Your Email" /></div>
-		<div class="col-12"><textarea name="message" id="message" placeholder="Input Your Message" rows="4"></textarea></div>
+		<div class="col-12">
+		<textarea name="message" id="message" placeholder="Input Your Message" rows="4"></textarea></div>
 		<div class="col-12"><input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="4"></div>
 		<div class="col-12"><div data-netlify-recaptcha="true"></div>
 		</div>
