@@ -11,29 +11,24 @@
     spam filtering
 
 ## THE STEPS
-    Register and make Account in https://app.netlify.com/
-    Find & download any contact-form html on internet
-    modify it like this :
-        <form action="POST" data-netlify="true">
-			<div class="row gtr-uniform gtr-50">
-				<div class="col-6 col-12-xsmall">
-				    <input type="text" name="name" id="name" placeholder="Input Your Name" /></div>
-				<div class="col-6 col-12-xsmall">
-					<input type="email" name="email" id="email" placeholder="Input Your Email" /></div>
-				<div class="col-12">
-					<textarea name="message" id="message" placeholder="Input Your Message" rows="4"></textarea>
-				</div>
-				<div class="col-12">
-					<input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="4">
-				</div>
-				<div class="col-12">
-				    <div data-netlify-recaptcha="true"></div>
-				</div>
-			</div>
-		</form>
-    then push it to github,
-    open https://app.netlify.com/,
-    login and link it with your github,
-    find your repo,
-    Deploy...
+    - [x] Register or make Account in[Netlify](https://app.netlify.com/)
+    - [x] Find & download any contact-form html on internet
+    - [x] modify it like this :
+    <form action="POST" data-netlify="true">
+	<div class="row gtr-uniform gtr-50">
+	<div class="col-6 col-12-xsmall">
+	<input type="text" name="name" id="name" placeholder="Input Your Name" /></div>
+	<div class="col-6 col-12-xsmall">
+	<input type="email" name="email" id="email" placeholder="Input Your Email" /></div>
+	<div class="col-12"><textarea name="message" id="message" placeholder="Input Your Message" rows="4"></textarea></div>
+	<div class="col-12"><input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="4"></div>
+	<div class="col-12"><div data-netlify-recaptcha="true"></div>
+	</div>
+	</div>
+    </form>
+    - [x] then push it to github,
+    - [x] open [Netlify](https://app.netlify.com/),
+    - [x] login and link it with your github,
+    - [x] find your repo,
+    - [x] Deploy...
     As simple is that...
