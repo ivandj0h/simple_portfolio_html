@@ -11,9 +11,9 @@
     spam filtering
 
 ## THE STEPS
-  [x] Register or make Account in[Netlify](https://app.netlify.com/)
-  [x] Find & download any contact-form html on internet
-  [x] modify it like this :
+  - [x] Register or make Account in[Netlify](https://app.netlify.com/)
+  - [x] Find & download any contact-form html on internet
+  - [x] modify it like this :
   
     <form action="POST" data-netlify="true">
 	<div class="row gtr-uniform gtr-50">
@@ -27,9 +27,9 @@
 	</div>
 	</div>
     </form>
-  [x] then push it to github,
-  [x] open [Netlify](https://app.netlify.com/),
-  [x] login and link it with your github,
-  [x] find your repo,
-  [x] Deploy...
+  - [x] then push it to github,
+  - [x] open [Netlify](https://app.netlify.com/),
+  - [x] login and link it with your github,
+  - [x] find your repo,
+  - [x] Deploy...
     As simple is that...
